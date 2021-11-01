@@ -15,7 +15,7 @@ public class EmployeeDAO {
 		public EmployeeDAO(EntityManager entityManager) {
 			this.entityManager=entityManager;
 		}
-
+		//daoclass
 		public void saveEmployee(Employee employee) {
 			EntityTransaction transtaction=entityManager.getTransaction();
 			transtaction.begin();

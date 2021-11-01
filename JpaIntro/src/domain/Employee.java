@@ -10,7 +10,7 @@ public class Employee {
 	private String name;
 	private String surName;
 	private int salary;
-	
+	//entityclass
 	public Employee() {
 		super();
 	}

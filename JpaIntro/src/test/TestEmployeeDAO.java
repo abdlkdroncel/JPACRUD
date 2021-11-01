@@ -13,7 +13,7 @@ public class TestEmployeeDAO {
 		public static void main(String[] args) {
 			EntityManagerFactory emf=Persistence.createEntityManagerFactory("EmployeePersistenceUnit");
 			EntityManager entityManager=emf.createEntityManager();
-			
+			//main
 			EmployeeDAO empDAO=new EmployeeDAO(entityManager);
 			
 			Employee employee=new Employee(1,"kadir","harman",5000);
